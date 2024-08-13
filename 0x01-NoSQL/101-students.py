@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Top students
+"""
+
 
 def top_students(mongo_collection):
     """
@@ -6,7 +10,6 @@ def top_students(mongo_collection):
 
     return the list of student from to top to lower
     """
-
     students = mongo_collection.aggregate(
         [
             {
