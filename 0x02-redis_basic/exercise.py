@@ -41,7 +41,7 @@ def call_history(method: Callable) -> Callable:
 
 
 def replay(fn: Callable) -> None:
-    """ 
+    """
             - How many times it was called
             - Function args and output for each call
     """
